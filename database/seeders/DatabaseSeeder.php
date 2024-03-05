@@ -44,6 +44,7 @@ class DatabaseSeeder extends Seeder
                 'description' => 'it is a postion for developers especially interested with the development
                 its functionality for laravel development and javascript development',
             ]
-        );    
+        ); 
+           
     }
 }
