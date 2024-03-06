@@ -17,6 +17,7 @@
                             <div class="text-lg mt-4">
                                 <i class="fa-solid fa-location-dot"></i>{{$listing->loaction}}
                             </div>
+                        
                         </div>
                     </div>
 </x-card>
