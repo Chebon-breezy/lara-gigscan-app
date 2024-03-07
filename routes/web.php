@@ -20,3 +20,12 @@ Route::get('/', [ListingController::class, 'index']);
 
 //Single Listing
 Route::get('/listings/{listing}', [ListingController::class, 'show']);
+
+// Common Resourse routes;
+// index - show all gigs
+// show - show single gig
+// create - show form to create new gig
+// store - store new gig
+// edit - show form to edit gig
+// update - update gig
+// destroy - delete gig
