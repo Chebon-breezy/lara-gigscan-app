@@ -14,13 +14,6 @@ use App\Http\Controllers\ListingController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-//all Listings
-Route::get('/', [ListingController::class, 'index']);   
-
-//Single Listing
-Route::get('/listings/{listing}', [ListingController::class, 'show']);
-
 // Common Resourse routes;
 // index - show all gigs
 // show - show single gig
@@ -29,3 +22,19 @@ Route::get('/listings/{listing}', [ListingController::class, 'show']);
 // edit - show form to edit gig
 // update - update gig
 // destroy - delete gig
+
+//all Listings
+Route::get('/', [ListingController::class, 'index']);   
+
+//show create form
+Route::get('/listings/create', [ListingController::class, 'create']);
+
+//Store Listing data
+Route::post('/listings', [ListingController::class, 'store']);
+
+
+
+
+
+//Single Listing
+Route::get('/listings/{listing}', [ListingController::class, 'show']);
