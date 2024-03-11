@@ -26,7 +26,7 @@
                             />
 
                             @error('company')
-                               <p class="text-red-500.text-xs mt-1"> {{$message}} </p>
+                               <p class="text-red-500 text-xs mt-1"> {{$message}} </p>
                             @enderror
 
                         </div>
@@ -42,24 +42,24 @@
                                 placeholder="Example: Senior Laravel Developer"
                             />
                             @error('title')
-                               <p class="text-red-500.text-xs mt-1"> {{$message}} </p>
+                               <p class="text-red-500 text-xs mt-1"> {{$message}} </p>
                             @enderror
                         </div>
 
                         <div class="mb-6">
                             <label
-                                for="location"
+                                for="loaction"
                                 class="inline-block text-lg mb-2"
                                 >Job Location</label
                             >
                             <input
                                 type="text"
                                 class="border border-gray-200 rounded p-2 w-full"
-                                name="location"
+                                name="loaction"
                                 placeholder="Example: Remote, Boston MA, etc"
                             />
-                            @error('location')
-                               <p class="text-red-500.text-xs mt-1"> {{$message}} </p>
+                            @error('loaction')
+                               <p class="text-red-500 text-xs mt-1"> {{$message}} </p>
                             @enderror
                         </div>
 
@@ -73,7 +73,7 @@
                                 name="email"
                             />
                             @error('email')
-                               <p class="text-red-500.text-xs mt-1"> {{$message}} </p>
+                               <p class="text-red-500 text-xs mt-1"> {{$message}} </p>
                             @enderror
                         </div>
 
@@ -90,7 +90,7 @@
                                 name="website"
                             />
                             @error('website')
-                               <p class="text-red-500.text-xs mt-1"> {{$message}} </p>
+                               <p class="text-red-500 text-xs mt-1"> {{$message}} </p>
                             @enderror
                         </div>
 
@@ -105,7 +105,7 @@
                                 placeholder="Example: Laravel, Backend, Postgres, etc"
                             />
                             @error('tags')
-                               <p class="text-red-500.text-xs mt-1"> {{$message}} </p>
+                               <p class="text-red-500 text-xs mt-1"> {{$message}} </p>
                             @enderror
                         </div>
 
@@ -134,7 +134,7 @@
                                 placeholder="Include tasks, requirements, salary, etc"
                             ></textarea>
                             @error('description')
-                               <p class="text-red-500.text-xs mt-1"> {{$message}} </p>
+                               <p class="text-red-500 text-xs mt-1"> {{$message}} </p>
                             @enderror
                         </div>
 
